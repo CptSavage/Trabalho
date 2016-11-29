@@ -13,6 +13,7 @@
 
 body{
     background:#efefef;
+    padding-top: 65px;
 }
 .form-body{
     background:#fff;
@@ -145,11 +146,8 @@ body{
 
 }
 
-.container_login_espaço{
-  margin-top: 12%;
-}
 
 .fundo_navbar_logout{
   background-color: red;
-  
+
 }
