@@ -17,6 +17,7 @@ body{
 .form-body{
     background:#fff;
     padding:20px;
+    margin-top:25%;
 }
 
 .login-form{
@@ -151,5 +152,5 @@ body{
 
 .fundo_navbar_logout{
   background-color: red;
-  
+
 }

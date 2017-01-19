@@ -55,16 +55,16 @@
           <div class="tab-content">
           <div id="sectionB" class="tab-pane fade in active">
 			         <div class="innter-form">
-                  <form class="sa-innate-form" method="post">
-                  <label>Nome:</label>
-                  <input type="text" name="nome">
-                  <label>Email:</label>
-                  <input type="text" name="username">
-                  <label>Password:</label>
-                  <input type="password" name="password">
-                  <label>Confirme Password:</label>
-                  <input type="password" name="password2">
-                  <button type="submit">Registo</button>
+                  <form id="registar" name="registar" class="sa-innate-form" method="post" action="index.php">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <label>Email:</label>
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    <label>Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <label>Confirme Password:</label>
+                    <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Password">
+                    <button type="submit" id="registarbtn" name="registarbtn" value="registar">Registo</button>
                   </form>
               </div>
             </div>
@@ -73,6 +73,8 @@
         </div>
       <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
       <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="./js/registarscript.js"></script>
+      <script type="text/javascript" src="./js/jquery.validate.min.js"></script>
   </div>
 </body>
 </html>
