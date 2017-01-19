@@ -21,23 +21,24 @@
 
         <li><a class="navbar-brand" href="index.html">TICKETDROID</a></li>
 
-
-
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="login.html">Login</a>
+          <li >
+            <a href="ticket.html">Ticket</a>
+          </li>
+          <li >
+            <a href="notificacoes.html">Notificações</a>
+          </li>
+          <li >
+            <a href="perfil.html">Perfil</a>
+          </li>
+          <li class="active">
+            <a href="hipermercados.html">Hipermercados</a>
           </li>
           <li>
-            <a href="registar.html">Registar</a>
-          </li>
-          <li>
-            <a href="about.html">Sobre Nós</a>
-          </li>
-          <li>
-            <a href="contact.html">Contactos</a>
+            <a href="index.html" class="ex1">Logout</a>
           </li>
         </ul>
       </div>
@@ -46,16 +47,31 @@
     <!-- /.container -->
   </nav>
 
-  <div class="page-header">
-    <div class="container-fluid ">
-      <div class="col-md-3 col-md-offset-5 margem_topo">
-        <h1 class="title1"> TICKETDROID </h1>
-        <!-- imagem responsiva com bootstrap-->
-        <img src="./img/TicketDroid.png" alt="imagem" class="img-responsive img-index"/>
-        <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <div class="page-header ">
+    <div class="container signup ">
+      <!-- imagem responsiva com bootstrap-->
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 margem_topo">
+          <div class="form-body ">
+            <ul class="nav nav-tabs final-login ">
+              <li class="active"><a data-toggle="tab" href="#sectionA">Adicionar Superfície</a></li>
+            </ul>
+            <div class="tab-content">
+              <div id="sectionA" class="tab-pane fade in active">
+                <div class="innter-form">
+                  <form class="sa-innate-form" method="post">
+                    <button type="submit">Clique para ler o Código QR</button>
+                    <br>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 </body>
 </html>

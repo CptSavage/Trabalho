@@ -1,6 +1,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TICKETDROID</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen" title="bootstrap">
   <link rel="stylesheet" href="./styles.css" media="screen">
@@ -8,68 +9,71 @@
 </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-            <li><a class="navbar-brand" href="index.html">TICKETDROID</a></li>
+        <li><a class="navbar-brand" href="index.html">TICKETDROID</a></li>
 
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                  <li class="active">
-                      <a href="ticket.html">Ticket</a>
-                  </li>
-                  <li>
-                      <a href="notificacoes.html">Notificações</a>
-                  </li>
-                  <li>
-                      <a href="perfil.html">Perfil</a>
-                  </li>
-                  <li>
-                      <a href="hipermercados.html">Hipermercados</a>
-                  </li>
-                  <li class="fundo_navbar_logout">
-                      <a href="index.html">Logout</a>
-                  </li>
-              </ul>
-          </div>
-          <!-- /.navbar-collapse -->
       </div>
-      <!-- /.container -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a href="ticket.html">Ticket</a>
+          </li>
+          <li>
+            <a href="notificacoes.html">Notificações</a>
+          </li>
+          <li>
+            <a href="perfil.html">Perfil</a>
+          </li>
+          <li>
+            <a href="hipermercados.html">Hipermercados</a>
+          </li>
+          <li >
+            <a href="index.html" class="ex1" >Logout</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
   </nav>
 
-  <div class="container container_login_espaço">
+  <div class="page-header">
+    <div class="container-fluid">
 
-        <!-- Team Members Row -->
-        <div class="row">
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>Talho
-                </h3>
-                <button type="submit">Tirar Ticket</button>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>Padaria
-                </h3>
-                <button type="submit">Tirar Ticket</button>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>Peixaria
-                </h3>
-                <button type="submit">Tirar Ticket</button>
-            </div>
+      <!-- Team Members Row -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 text-center margem_topo">
+          <img class="img-circle img-responsive img-center" src="http://www.mercadodacarne.pt/wp-content/uploads/2015/12/17-talho-mercado-da-carne-gourmet-cascais-estoril.jpg" alt="">
+          <h3>Talho
+          </h3>
+          <button type="submit">Tirar Ticket</button>
         </div>
-        <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <div class="col-lg-4 col-sm-6 text-center margem_topo">
+          <img class="img-circle img-responsive img-center" src="http://www.virthuz.com.br/img_anuncios/SC/8356/cat/grande/64645_padariaeconfeitariadaliapassodetorressc160505143212cw1.jpg" alt="">
+          <h3>Padaria
+          </h3>
+          <button type="submit">Tirar Ticket</button>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center margem_topo">
+          <img class="img-circle img-responsive img-center" src="https://farm2.staticflickr.com/1491/24607414332_3a70d0ce5d_b.jpg" alt="">
+          <h3>Peixaria
+          </h3>
+          <button type="submit">Tirar Ticket</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 </body>
 </html>
